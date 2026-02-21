@@ -6,10 +6,10 @@ export default function Contact({ id }) {
       id={id}
       className="h-screen flex flex-col items-center justify-center text-center px-4"
     >
-      <h2 className="text-4xl font-display font-bold mb-8">
+      <h2 className="text-7xl font-display font-bold mb-8">
         Thank you so much!
       </h2>
-      <p className="text-lg font-light">
+      <p className="text-5xl font-light">
         Feel free to reach out to start a conversation or discuss future
         projects.
       </p>
@@ -18,7 +18,7 @@ export default function Contact({ id }) {
           href="mailto:junior.maudu16@gmail.com"
           className="font-medium underline underline-offset-4"
         >
-          <FaMailBulk className="inline-block mr-1 text-3xl" />
+          <FaMailBulk className="inline-block mr-1 text-4xl" />
           Email
         </a>
         <a
@@ -26,7 +26,7 @@ export default function Contact({ id }) {
           target="_blank"
           className="font-medium underline underline-offset-4"
         >
-          <FaGithub className="inline-block mr-1 text-3xl" /> GitHub
+          <FaGithub className="inline-block mr-1 text-4xl" /> GitHub
         </a>
       </div>
     </section>

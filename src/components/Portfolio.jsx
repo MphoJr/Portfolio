@@ -62,7 +62,7 @@ export default function Portfolio({ id }) {
               rel="noopener noreferrer"
               className="inline-flex items-center mt-4 text-indigo-500 hover:underline px-40 py-3"
             >
-              <FaGithub className="mr-2 text-xl" />
+              <FaGithub className="mr-2 text-3xl" />
               View on GitHub
             </a>
           </div>
