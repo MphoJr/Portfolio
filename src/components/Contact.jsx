@@ -1,3 +1,5 @@
+import { FaGithub, FaMailBulk } from "react-icons/fa";
+
 export default function Contact({ id }) {
   return (
     <section
@@ -13,17 +15,18 @@ export default function Contact({ id }) {
       </p>
       <div className="mt-8 flex space-x-6">
         <a
-          href="mailto:hello@reallygreatsite.com"
+          href="mailto:junior.maudu16@gmail.com"
           className="font-medium underline underline-offset-4"
         >
+          <FaMailBulk className="inline-block mr-1 text-3xl" />
           Email
         </a>
         <a
-          href="https://twitter.com/reallygreatsite"
+          href="https://github.com/MphoJr"
           target="_blank"
           className="font-medium underline underline-offset-4"
         >
-          Twitter
+          <FaGithub className="inline-block mr-1 text-3xl" /> GitHub
         </a>
       </div>
     </section>
