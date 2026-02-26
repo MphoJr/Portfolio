@@ -10,21 +10,21 @@ export default function Portfolio({ id }) {
       github: "https://github.com/MphoJr/VRO_Funerals",
     },
     {
-      title: "Second Project",
+      title: "NAOG CHURCH WEBSITE",
       description:
         "Digital hub for church activities and community engagement. React frontend, Node.js + Express backend, Postgres database.",
       thumbnail: "./images/Secondp.png",
       github: "https://github.com/MphoJr/NAOG_Frontend",
     },
     {
-      title: "Third Project",
+      title: "Snake Game",
       description:
         "Classic Snake Game recreation using Python + Tkinter. Demonstrates game logic and user input handling.",
       thumbnail: "./images/image.png",
       github: "https://github.com/MphoJr/Snake",
     },
     {
-      title: "Fourth Project",
+      title: "Weather App",
       description:
         "Another Snake Game variation built with Python + Tkinter, showcasing programming fundamentals and user interaction.",
       thumbnail: "./images/Thirdp.png",
