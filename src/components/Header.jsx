@@ -4,9 +4,9 @@ export default function Header() {
       <a className="font-display text-xl text-white" href="#hero">
         Mpho Tshawe Maudu
       </a>
-      <ul className="flex space-x-6">
+      <ul className="flex space-x-6 ">
         {[
-          "hero",
+          "home",
           "about",
           "education",
           "skills",
@@ -17,7 +17,7 @@ export default function Header() {
           <li key={name}>
             <a
               href={`#${name}`}
-              className="text-sm font-medium hover:underline underline-offset-4"
+              className="text-xl font-medium hover:underline underline-offset-4"
             >
               {name.charAt(0).toUpperCase() + name.slice(1)}
             </a>
