@@ -23,29 +23,6 @@ export default function Hero({ id }) {
           experiences. Let's create something amazing together!
         </p>
 
-        {/* Social links */}
-        <div className="flex justify-center md:justify-start space-x-6 mb-6 text-lg">
-          <a href="mailto:junior.maudu16@gmail.com" className="hover:underline">
-            Email
-          </a>
-          <a
-            href="https://github.com/MphoJr"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://www.linkedin.com/in/mpho-tshawe-maudu-5a433a241"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            LinkedIn
-          </a>
-        </div>
-
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
           <a
