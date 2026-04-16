@@ -26,9 +26,17 @@ export default function Portfolio({ id }) {
     {
       title: "Weather App",
       description:
-        "Another Snake Game variation built with Python + Tkinter, showcasing programming fundamentals and user interaction.",
+        "Developed a responsive weather forecasting application using Python and Tkinter for the frontend. Integrated OpenWeather API to fetch real-time weather data including temperature, humidity, and conditions. ",
       thumbnail: "./images/Thirdp.png",
       github: "https://github.com/MphoJr/Weather_app",
+    },
+
+    {
+      title: "Travel Bud",
+      description:
+        "Another Snake Game variation built with Python + Tkinter, showcasing programming fundamentals and user interaction.",
+      thumbnail: "./images/travelbud.png",
+      github: "https://github.com/MphoJr/Travel_Bud",
     },
   ];
 
