@@ -34,7 +34,7 @@ export default function Portfolio({ id }) {
     {
       title: "Travel Bud",
       description:
-        "Another Snake Game variation built with Python + Tkinter, showcasing programming fundamentals and user interaction.",
+        "A travel booking application built with .Net MVC C#  and HTML/CSS . It allows users to search for destinations, view travel packages, and make bookings. The application uses a MSSQL database to manage user data and bookings.",
       thumbnail: "./images/travelbud.png",
       github: "https://github.com/MphoJr/Travel_Bud",
     },
