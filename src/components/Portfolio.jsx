@@ -14,15 +14,15 @@ export default function Portfolio({ id }) {
     {
       title: "NAOG CHURCH WEBSITE",
       description:
-        "Digital hub for church activities and community engagement. React frontend, Node.js + Express backend, Postgres database.",
+        "Digital hub for church activities and community engagement. React frontend.",
       thumbnail: "./images/Secondp.png",
       github: "https://github.com/MphoJr/NAOG_Frontend",
-      website: "https://naogchurch.vercel.app",
+      website: "https://naog-frontend.vercel.app/",
     },
     {
       title: "CarFinders Website",
       description:
-        "Car rental app built with .Net MVC C# and HTML/CSS. Uses MSSQL database to manage bookings.",
+        "Built with React, featuring modular components .Interactive Tools like Car Finance Calculator and dynamic forms for quotes and contact requests.",
       thumbnail: "./images/Carfinders.png",
       github: "https://github.com/MphoJr/CarFinders",
       website: "https://carfinderssa.co.za/",
